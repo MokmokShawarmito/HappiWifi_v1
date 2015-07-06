@@ -145,6 +145,20 @@
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
+    <Content Include="Images\dark_bg.png" />
+    <Content Include="Images\Happy_Wifi.png" />
+    <Content Include="Images\Happy_Wifi_mini.png" />
+    <Content Include="Images\lightdark_bg.png" />
+    <Content Include="Images\Uploads\acom.jpg" />
+    <Content Include="Images\Uploads\apm group.jpg" />
+    <Content Include="Images\Uploads\cavaliers.jpg" />
+    <Content Include="Images\Uploads\denr.jpg" />
+    <Content Include="Images\Uploads\felcris.jpg" />
+    <Content Include="Images\Uploads\jules.jpg" />
+    <Content Include="Images\Uploads\printing.jpg" />
+    <Content Include="Images\Uploads\rc cola.jpg" />
+    <Content Include="Images\Uploads\robinsons.jpg" />
+    <Content Include="Images\Uploads\woodcraft.jpg" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
@@ -160,7 +174,9 @@
     <Content Include="Scripts\respond.js" />
     <Content Include="Scripts\respond.min.js" />
     <Content Include="Scripts\_references.js" />
-    <Content Include="Web.config" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </Content>
@@ -179,7 +195,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="Images\Uploads\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="fonts\glyphicons-halflings-regular.woff" />
