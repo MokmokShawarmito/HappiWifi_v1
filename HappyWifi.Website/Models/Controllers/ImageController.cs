@@ -20,7 +20,7 @@ namespace HappyWifi.Website.Models.Controllers
             //liteDBPath = HostingEnvironment.ApplicationPhysicalPath + liteDBPath;
             //liteDBPath = liteDBPath.Replace(@"\\",@"\");
             //this.sqlConnectionString = ConfigurationManager.ConnectionStrings["MSConnectionString"].ConnectionString;
-            this.sqlConnectionString = "Server=SONY-VAIO;Database=HappyWifiDB;uid=root;password=toor;";
+            this.sqlConnectionString = ConfigurationManager.AppSettings["SQLSERVER_CONNECTION_STRING"];
         }
 
         public bool Add(Image image)
