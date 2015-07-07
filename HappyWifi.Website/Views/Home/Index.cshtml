@@ -72,14 +72,14 @@
                 $('#company-location').text($(this).attr('data-location'));
                 $('#company-contact').text($(this).attr('data-contact'));
                 $('#company-caption').text($(this).attr('data-caption'));
-                $('#company-website').setAttribute('href',$(this).attr('data-website'));
-                
-                $('#myModal').modal('show');
 
                 var logo = document.getElementById('company-logo');
+                var website = document.getElementById('company-website');
 
                 logo.setAttribute('src',$(this).attr('data-image'));
-
+                website.setAttribute('href',$(this).attr('data-website'));
+                
+                $('#myModal').modal('show');
             });
         });
     </script>
